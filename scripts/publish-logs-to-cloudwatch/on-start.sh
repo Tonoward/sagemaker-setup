@@ -30,4 +30,4 @@ fi
 echo "Restaring awslogs service"
 pkill -f "/usr/bin/aws logs push" || true
 sleep 5
-service awslogs start
+service awslogsd start
